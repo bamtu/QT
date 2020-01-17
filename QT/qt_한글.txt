@@ -1,0 +1,10 @@
+$cd ~/Qt5.12.6/Tools/QtCreator/lib/Qt/plugins/platforminputcontexts
+$ln -s /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so
+
+
+cat > ~/.xinputrc << EOF
+run_im fcitx
+export QT_IM_MODULE=fcitx
+
+cd (/home/user/Qt)/Tools/QtCreator/lib/Qt/plugins/platforminputcontexts
+ln -s /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so
