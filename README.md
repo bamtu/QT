@@ -1,4 +1,4 @@
-# C Language And QT On Linux(Ubuntu 16) For Automotives
+# Examples(not I developed) - C Language And QT On Linux(Ubuntu 16) For Automotives
 
 
 
